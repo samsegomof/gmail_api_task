@@ -32,10 +32,10 @@ This Python script allows you to interact with the Gmail API for tasks such as a
 
 ## Usage
 
-1. Run the script:
+1. Run the CLI:
 
     ```bash
-    python gmail_script.py
+    python run.py
     ```
 
 2. Follow the instructions to authorize the application to access your Gmail account.

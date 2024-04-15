@@ -127,13 +127,13 @@ class GmailClient:
             print(f"An error occurred while deleting message {message_id}: {e}")
 
 
-if __name__ == "__main__":
-    gmail_client = GmailClient()
+#if __name__ == "__main__":
+    #gmail_client = GmailClient()
 
-    print("Last 5 emails:")
-    gmail_client.get_last_emails()
+    #print("Last 5 emails:")
+    #gmail_client.get_last_emails()
 
     # to test the message sending method, fill in
-    gmail_client.send_email('your_email@example.com', 'recipients_email@example.com', 'subject text', 'message_text')
+    #gmail_client.send_email('your_email@example.com', 'recipients_email@example.com', 'subject text', 'message_text')
 
-    gmail_client.delete_email('put here message id')
+    #gmail_client.delete_email('put here message id')
